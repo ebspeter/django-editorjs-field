@@ -8,6 +8,7 @@ class EditorJsWidget(widgets.TextInput):
             'editorjs/editor.js',
             'editorjs/header.js',
             'editorjs/checklist.js',
+            'editorjs/simple-image/bundle.js',
             'editorjs_field.js',
         )
         css = {'all': ('editorjs_field.css', )}
