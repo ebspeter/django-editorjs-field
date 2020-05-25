@@ -22,6 +22,7 @@ class EditorJsWidget(widgets.TextInput):
         ctx = {
             'name': name,
             'id': kwargs['attrs']['id'],
+            'class': name.replace('_','-'),
             'value': value
         }
 
