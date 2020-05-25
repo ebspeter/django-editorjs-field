@@ -1,4 +1,4 @@
 <div>
-    <div id="codex-editor" output-id="{{id}}"></div>
-    <input type="hidden" id="{{id}}" name="{{name}}" value={{value|safe}} />
+    <div class="codex-editor mt mt-field-{{class}}" id="{{id}}" output-id="output-{{id}}"></div>
+    <input type="hidden" id="output-{{id}}" name="{{name}}" value={{value|safe}} />
 </div> 
