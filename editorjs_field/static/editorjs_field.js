@@ -81,7 +81,8 @@ document.addEventListener('DOMContentLoaded', function() {
             tools: { 
                 header: Header,
                 checklist: Checklist,
-                button: Button
+                button: Button,
+                image: SimpleImage
             },
             data: initialContent || {}
         });
